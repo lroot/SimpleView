@@ -1,0 +1,18 @@
+{
+  "name": "lroot/simple-view",
+  "type" : "library",
+  "description": "A single class file implementing the core features of a view system including layouts, partials and placeholders",
+  "keywords": ["view","template","php","renderer"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Larry Root",
+      "email": "software@L2AO.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lroot\\SimpleView\\": "src"
+    }
+  }
+}

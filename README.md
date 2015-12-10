@@ -118,16 +118,6 @@ Layouts are your "master" templates pulling together all your content.
 </html>
 ```
 
-## Caching
-
-You can output a static HTML version of your generated view script. You can then setup your web server to serve up the static file or fall back to a php script using SimpleView to generate the static file for the next visitor. Alternatively you could always server up the static file and use a scheduler to periodically update the file by executing your php script which is using SimpleView.
-```php
-// Caching is off by default. Just turn it on to have a static version output
-// based on your static cache configurations settings.
-AG_View::setConfigProperty(AG_View::CONFIG_STATIC_PAGE_CACHING, true);
-echo SimpleView::render('your-view-script', array('name'=>'Amanda'), 'your-layout');
-```
-
 ## Documentation
 
 SimpleView has extensive code level documentation and examples. To learn more about how SimpleView works just read through the code.
