@@ -118,7 +118,7 @@ Layouts are your "master" templates pulling together all your content.
 </html>
 ```
 
-## Documentation
+## Further Documentation
 
 SimpleView has extensive code level documentation and examples. To learn more about how SimpleView works just read through the code.
 
