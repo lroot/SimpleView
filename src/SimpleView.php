@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2015 Larry Root
  * @license   https://github.com/lroot/SimpleView/blob/master/LICENSE.md (MIT License)
  */
-namespace Lroot;
+namespace Lroot\Views;
 
 use Exception;
 
