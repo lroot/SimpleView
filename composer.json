@@ -7,12 +7,15 @@
   "authors": [
     {
       "name": "Larry Root",
-      "email": "software@L2AO.com"
+      "email": "packages@lroot.com"
     }
   ],
   "autoload": {
     "psr-4": {
       "Lroot\\SimpleView\\": "src"
     }
+  },
+  "require": {
+    "php": ">=5.3.0"
   }
 }
