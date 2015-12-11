@@ -320,6 +320,9 @@ class SimpleView
         } elseif (!is_string($name)) {
             throw new Exception('You must provide valid string content');
         }
+        if (!isset(self::$placeholderContent[$name])) {
+            self::$placeholderContent[$name] = '';
+        }
         self::$placeholderContent[$name] .= $content;
     }
 
