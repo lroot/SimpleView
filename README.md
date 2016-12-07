@@ -123,3 +123,9 @@ Layouts are your "master" templates pulling together all your content.
 SimpleView has extensive code level documentation and examples. To learn more about how SimpleView works just read through the code.
 
 
+## Todo
+
+- Add tests
+- Add example dir with functional layout, placeholders and partials
+- make specifying partial and view scripts the same (fix extension requirement for partials)
+- Show how to handle namespace use in templates
